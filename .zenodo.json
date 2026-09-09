@@ -28,5 +28,11 @@
     "structured redundancy",
     "signal recovery"
   ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Svetlana-Grigoryan/walsh-block-hadamard-frames",
+      "relation": "isAlternateIdentifier"
+    }
+  ],
   "notes": "Numerical computations in this archive verify and illustrate analytically proved results; they are not substitutes for proof."
 }

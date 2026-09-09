@@ -12,6 +12,8 @@ authors:
     orcid: "https://orcid.org/0009-0005-9198-2816"
     affiliation: National Polytechnic University of Armenia
 version: 1.0.0
+doi: 10.5281/zenodo.22681896
+repository-code: "https://github.com/Svetlana-Grigoryan/walsh-block-hadamard-frames"
 date-released: 2026-09-09
 license: MIT
 keywords:
