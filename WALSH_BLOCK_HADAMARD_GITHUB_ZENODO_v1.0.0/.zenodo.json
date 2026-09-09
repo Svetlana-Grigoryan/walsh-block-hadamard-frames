@@ -1,0 +1,32 @@
+{
+  "title": "Reproducibility package for Exact Erasure Thresholds and Sharp Stability Profiles for Structured Walsh--Block-Hadamard Frames",
+  "upload_type": "software",
+  "publication_date": "2026-09-09",
+  "version": "1.0.0",
+  "description": "Code, machine-readable numerical results, verification reports, and reproducibility figures supporting the article 'Exact Erasure Thresholds and Sharp Stability Profiles for Structured Walsh--Block-Hadamard Frames'. The archive verifies implementation-level consequences of exact analytical results for a structured redundancy-two Walsh--block-Hadamard Parseval frame family, including erasure thresholds, sharp worst-case stability profiles in the proved range, critical-pattern counts, decoder checks, weighted-branch stability, and fixed-seed random-erasure experiments. The unpublished manuscript source and manuscript PDF are intentionally not included in this software release.",
+  "creators": [
+    {
+      "name": "Episkoposian, Sergo A.",
+      "affiliation": "National Polytechnic University of Armenia",
+      "orcid": "0000-0002-8811-2247"
+    },
+    {
+      "name": "Grigoryan, Svetlana A.",
+      "affiliation": "National Polytechnic University of Armenia",
+      "orcid": "0009-0005-9198-2816"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "Walsh-Hadamard transform",
+    "Parseval frames",
+    "erasure recovery",
+    "cospark",
+    "finite uncertainty principle",
+    "partial Walsh matrices",
+    "structured redundancy",
+    "signal recovery"
+  ],
+  "notes": "Numerical computations in this archive verify and illustrate analytically proved results; they are not substitutes for proof."
+}

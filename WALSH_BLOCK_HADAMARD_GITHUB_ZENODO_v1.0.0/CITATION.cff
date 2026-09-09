@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or reproduce results from this archive, please cite this archived release and the associated article."
+title: "Reproducibility package for Exact Erasure Thresholds and Sharp Stability Profiles for Structured Walsh--Block-Hadamard Frames"
+type: software
+authors:
+  - family-names: Episkoposian
+    given-names: Sergo A.
+    orcid: "https://orcid.org/0000-0002-8811-2247"
+    affiliation: National Polytechnic University of Armenia
+  - family-names: Grigoryan
+    given-names: Svetlana A.
+    orcid: "https://orcid.org/0009-0005-9198-2816"
+    affiliation: National Polytechnic University of Armenia
+version: 1.0.0
+date-released: 2026-09-09
+license: MIT
+keywords:
+  - Walsh-Hadamard transform
+  - Parseval frames
+  - erasures
+  - cospark
+  - uncertainty principle
+  - partial Walsh matrices
+  - structured frames
+  - signal recovery
