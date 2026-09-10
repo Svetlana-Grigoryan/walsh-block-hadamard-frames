@@ -32,18 +32,39 @@ plt.tight_layout()
 plt.savefig(FIGDIR / 'sharp_profile_m16.pdf')
 plt.close()
 
-# Compare rank-one extremal geometry against aligned dyadic blocks for equal block sizes k=1,2,4,8,16 in m=16.
-ks=np.array([1,2,4,8,16])
-extremal=np.sqrt(ks*ks/m)
-dyadic=np.sqrt(ks/m)
-plt.figure(figsize=(6.4,4.2))
-plt.plot(ks,extremal,marker='o',label='orthogonal-subspace rank-one blocks')
-plt.plot(ks,dyadic,marker='s',label='aligned dyadic intervals')
+# Compare the feasible orthogonal-affine rank-one geometry
+# with aligned dyadic blocks for m=16.
+#
+# For equal-size sets |I|=|J|=k, the rank-one construction is feasible
+# when 2*ceil(log2(k)) <= s. Since m=16=2^4, this gives k <= 4.
+
+ks_extremal = np.array([1, 2, 4])
+extremal = ks_extremal / np.sqrt(m)
+
+ks_dyadic = np.array([1, 2, 4, 8, 16])
+dyadic = np.sqrt(ks_dyadic / m)
+
+plt.figure(figsize=(6.4, 4.2))
+
+plt.plot(
+    ks_extremal,
+    extremal,
+    marker='o',
+    label='orthogonal-affine rank-one blocks'
+)
+
+plt.plot(
+    ks_dyadic,
+    dyadic,
+    marker='s',
+    label='aligned dyadic intervals'
+)
+
 plt.xlabel('Block size k=|I|=|J|')
 plt.ylabel(r'$\|H_m[I,J]\|_2$')
 plt.title('Partial Walsh norms for two structured geometries (m=16)')
 plt.legend()
-plt.grid(True,alpha=.25)
+plt.grid(True, alpha=.25)
 plt.tight_layout()
 plt.savefig(FIGDIR / 'dyadic_vs_extremal_m16.pdf')
 plt.close()
